@@ -1,0 +1,275 @@
+.grad-green {
+  background: #F1FAF0; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #F1FAF0 , #fff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #F1FAF0 , #fff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #F1FAF0 , #fff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #F1FAF0 , #fff); /* Standard syntax */
+}
+
+.grad-red {
+  background: #FCEEEE; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #FCEEEE , #fff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #FCEEEE , #fff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #FCEEEE , #fff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #FCEEEE , #fff); /* Standard syntax */
+}
+
+.grad-blue {
+  background: #EEF2FC; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #EEF2FC , #fff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #EEF2FC , #fff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #EEF2FC , #fff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #EEF2FC , #fff); /* Standard syntax */
+}
+
+
+.grad-gray {
+  background: #F5F5F5; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #F5F5F5 , #fff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #F5F5F5 , #fff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #F5F5F5 , #fff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #F5F5F5 , #fff); /* Standard syntax */
+}
+
+.box-item {
+  width: 206px;
+  min-height: 198px;
+  padding: 4px;
+  margin: 8px;
+  display: inline-table;
+}
+
+.box-green {
+  background: #F1FAF0; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #F1FAF0 , #fff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #F1FAF0 , #fff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #F1FAF0 , #fff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #F1FAF0 , #fff); /* Standard syntax */
+
+  border: 3px solid #559933;
+}
+
+.box-red {
+  background: #FCEEEE; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #FCEEEE , #fff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FCEEEE , #fff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FCEEEE , #fff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FCEEEE , #fff); /* Standard syntax */
+  
+  border: 3px solid #dd4040;
+}
+
+.task-container {
+  margin-top: 4px;
+  background-color: #F8F8F8;
+  border-radius: 10px;
+}
+
+.box-item:hover {
+  -webkit-box-shadow: 7px 7px 22px 0px rgba(128,124,128,1);
+  -moz-box-shadow: 7px 7px 22px 0px rgba(128,124,128,1);
+  box-shadow: 7px 7px 22px 0px rgba(128,124,128,1);
+  cursor: pointer;
+}
+
+.box-no-border {
+  border: none;
+  width: 200px;
+  min-height: 198px;
+  padding: 4px;
+  margin: 4px;
+  display: inline-table;
+  text-align: center;
+}
+
+.percentage-box {
+  border: 2px solid #C2C2C2;
+  background-color: #D6D6D6;
+  width: 50px;
+  height: 30px;
+}
+
+.panel-heading {
+  padding: 20px 0 0 10px!important;
+}
+
+.task-img {
+    margin-top: -11px;
+    float: left;
+    height: 40px;
+}
+
+.up-arrow-green {
+    background-image: url("/img/up-arrow-green.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    padding: 16px 17px;
+    font-weight: bolder;
+    color: #fff;
+    margin-left: 35%;
+}
+
+
+.down-arrow-red {
+    background-image: url("/img/down-arrow-red.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    padding: 16px 17px;
+    font-weight: bolder;
+    color: #fff;
+    margin-left: 35%;
+}
+
+
+.right-arrow-yellow {
+    background-image: url("/img/right-arrow-yellow.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    font-weight: bolder;
+    margin-left: 35%;
+}
+
+.detail-header {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px; 
+}
+
+.detail-header-green {
+  color: #559933;
+}
+
+.detail-header-red {
+  color: #DB4343;
+}
+
+
+.arrow-float {
+  padding: 0 7px 0 4px;
+  margin: 4px;
+  display: inline-table;
+  text-align: center;
+}
+
+.computer {
+  padding: 4px;
+  margin: 18px;
+  display: inline-table;
+  text-align: center;
+  color: #7E9EDD;
+  font-weight: bold;
+}
+
+.build-date {
+  margin-top: 19px;
+  color: #7E9EDD;
+  font-weight: bold;
+  text-align: center;
+}
+
+.panel-body {
+  border: none!important;
+}
+
+.container-pie {
+  display: inline-table;
+  width: 110px;
+  height: 110px;
+}
+
+.text-test-passed {
+  padding: 20px 0 0 0;
+  display: inline-table;
+  font-size: 30px;
+  font-weight: bold;
+  float: right;
+}
+
+.text-test-passed div {
+  font-size: 8px;
+}
+
+.accepted-result {
+  color: #E5C461;
+  margin-top: 10px;
+}
+
+.accepted-result #title {
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.accepted-result #info {
+  margin-top: 2px;
+  margin-bottom: 12px;
+  font-size: 28px;
+}
+
+.rejected-result {
+  color: #dd4040;
+  margin-top: 10px;
+}
+
+.rejected-result #title {
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.rejected-result #info {
+  margin-top: 2px;
+  margin-bottom: 12px;
+  font-size: 28px;
+}
+
+
+.complete-result {
+  color: #559933;
+  margin-top: 10px;
+}
+
+.complete-result #title {
+  font-size: 28px;
+  margin-top: 12px;
+}
+
+.complete-result button {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.progress-bar-container {
+ width: 100%;   
+ border: none;
+ position: relative;
+ padding: 0;
+ background-color: #f0a8a8;
+}
+
+.progress-bar-text {
+   position: absolute;   
+   left: 35%;
+   font-size: 10px;
+   padding-top: 20px;
+}
+
+.progress-bar-value {
+   position: absolute;
+   font-size: 18px;
+   font-weight: bold;
+   left: 42%;
+}
+
+.progress-bar-completed {
+ height: 34px;
+ background-color: #B8E6B3;
+ 
+}
+
+.percentage-covered-box {
+  margin-top: 5px;
+  width: 100%;
+}
